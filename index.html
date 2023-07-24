@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Cropper</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div class="heroContainer">
+            <div class="top-header">
+                <div class="leftSide">
+                    <img class="icon" src="/img/Group 47.svg" style="width: 1.5rem;">
+                    <img class="icon" src="/img/Cropper Logo.svg" style="width: 2.5rem;">
+
+                </div>
+                <div class="rightSide">
+                    <div id="toggle" onclick="toggleMode()">
+                        <img class="sun-icon" src="/img/sun-icon-31.png" alt="">
+                        <img class="moon-icon" src="/img/moon icon.png" alt="">
+                        <div id="checkbox"></div>
+                    </div>
+                    <div id="support">
+                        <img class="icon" src="/img/support.svg" style="width: 1.5rem;">
+                        <span>Support</span>
+                    </div>
+                    <div id="rightSideLogo">
+                        <img class="icon" src="/img/download.svg" style="width: 1.5rem;">
+                        <img class="icon" src="/img/messages.svg" style="width: 1.5rem;">
+                        <img class="icon" src="/img/notification bell.svg" style="width: 1.5rem;">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="nav">
+                <span class="navHeading"><a href="#">Menu</a></span>
+                <div class="navList">
+                    <li><a href="#">IPL # 233926</a></li>
+                    <span>
+                        <li><a href="#">Information</a></li>
+                    </span>
+                    <li><a href="#">Office Results</a></li>
+                    <li><a href="#">Field Results</a></li>
+                    <li><a href="#">Invoices</a></li>
+                    <li><a href="#">Photos <span style="color: #FB5758;">(0)</span> </a></li>
+                    <li><a href="#">Messages <span style="color: #FB5758;">(1)</span> </a></li>
+                    <li><a href="#">Property Info</a></li>
+                    <li><a href="#">Client sync</a></li>
+                </div>
+                <div id="msg"><img src="/img/msg.svg" alt=""> Message</div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="leftContent">
+                <div class="sideBar">
+                    <div class="upperList">
+                        <ul>
+                            <span>
+                                <li><a href="#" style="color: #3C82F5;"><img src="/img/orders.svg">Work Orders</a></li>
+                            </span>
+                            <li><a href="#"><img src="/img/resources.svg">Resources</a></li>
+                            <li><a href="#"><img src="/img/reports.svg">Reports</a></li>
+                            <li><a href="#"><img src="/img/accounting.svg">Accounting</a></li>
+                            <li><a href="#"><img src="/img/admin.svg">Admin</a></li>
+                            <li><a href="#"><img src="/img/repair base.svg">Repair base</a></li>
+                        </ul>
+                        <hr>
+                    </div>
+                    <div class="lowerList">
+                        <span class="navHeading"><a href="#">Profile</a></span>
+                        <ul>
+                            <li><a href="#"><img src="/img/admin.svg">Admin</a></li>
+                            <li><a href="#"><img src="/img/repair base.svg">Repair base</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="rightContent">
+                <div class="containerCard-1">
+                    <div class="card">
+                        <img style="border-radius: 6px;" src="/img/cardImg.png" alt="">
+                        <div class="card-body">
+                            <span class="cardHeading">Information</span>
+                            <hr>
+                            <div class="subheading">
+                                <img src="/img/map.svg">
+                                <div class="co-ordinates">
+                                    <span class="link-label">Lat</span><span class="co-or"> :- 53.15141</span>
+                                    <img src="/img/Ellipse 1.svg" alt="">
+                                    <span class="link-label">Lon</span><span class="co-or"> :- 12.21154</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="cardFooter">
+                                <div class="leftContent">
+
+                                    <ul>
+                                        <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                        <li> <span class="link-label">Contractor </span> : 05-05-2023</li>
+                                        <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                    </ul>
+
+                                </div>
+                                <div class="rightContent">
+                                    <ul>
+                                        <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                        <li> <span class="link-label">Contractor </span> : 05-05-2023</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-1">
+                        <span class="cardHeading">Other Information</span>
+                        <hr>
+                        <div class="card-body">
+                            <ul>
+                                <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                <li> <span class="link-label">Contractor </span> : 05-05-2023</li>
+                                <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                <li> <span class="link-label">Contractor </span> : 05-05-2023</li>
+                                <li> <span class="link-label">Assign date </span> : 05-05-2023 &nbsp; &nbsp; &nbsp;
+                                    &nbsp; &nbsp; <span class="link-label">Assign date </span> : 05-05-2023</li>
+                            </ul>
+                        </div>
+                        <div class="card-1-footer">
+                            <div class="content">
+                                <img src="img/schedule.svg" alt="">
+                                <img src="img/edit page icon.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="containerCard-2">
+                    <div class="card-2">
+                        <span class="cardHeading">Actions</span>
+                        <div class="actionsList">
+                            <div class="copy">
+                                <div class="icon-bg"><img src="/img/copy icon.svg" alt=""></div>
+                                <span style="font-size: 16px;">Copy</span>
+                            </div>
+                            <div class="edit">
+                                <div class="icon-bg"><img src="/img/edit icon.svg" alt=""></div>
+                                <span style="font-size: 16px;">Edit</span>
+                            </div>
+                            <div class="print">
+                                <div class="icon-bg"><img src="/img/print icon.svg" alt=""></div>
+                                <span style="font-size: 16px;">Print</span>
+                            </div>
+                            <div class="invoice">
+                                <div class="icon-bg"><img src="/img/invoice icon.svg" alt=""></div>
+                                <span style="font-size: 16px;">Invoice</span>
+                            </div>
+                            <div class="property-history">
+                                <div class="icon-bg"><img src="/img/property history icon.svg" alt=""></div>
+                                <span style="font-size: 12px; text-align: center; overflow-y: hidden;">Property
+                                    History</span>
+                            </div>
+                            <div class="add-task">
+                                <div class="icon-bg"><img src="/img/add task icon.svg" alt=""></div>
+                                <span style="font-size: 15px; text-align: center;">Add task</span>
+                            </div>
+                            <div class="delete">
+                                <div class="icon-bg"><img src="/img/delete icon.svg" alt=""></div>
+                                <span style="font-size: 16px;">Delete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-3">
+                        <span class="cardHeading">Work Information</span>
+                        <hr>
+                        <div class="cardContent">
+                            <div class="leftContent">
+                                <ul>
+                                    <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                    <li> <span class="link-label">Contractor </span> : 05-05-2023</li>
+                                    <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                    <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                    <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                </ul>
+                            </div>
+                            <div class="rightContent">
+                                <ul>
+                                    <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                    <li> <span class="link-label">Contractor </span> : 05-05-2023</li>
+                                    <li> <span class="link-label">Assign date </span> : 05-05-2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-4">
+                        <span class="cardHeading">Work Order Details</span>
+                        <hr>
+                        <div class="top">
+                            <div class="comment">
+                                <img src="/img/comments icon.svg" alt="">
+                                <span>Comment</span>
+                            </div>
+                            <div class="task">
+                                <img src="/img/edit list icon.svg" alt="">
+                                <span>Task</span>
+                            </div>
+                            <div class="instructions">
+                                <img src="/img/instructions icon.svg" alt="">
+                                <span>Instructions</span>
+                            </div>
+                            <div class="map">
+                                <img src="/img/map icon.svg" alt="">
+                                <span>Map</span>
+                            </div>
+                            <div class="information">
+                                <img src="/img/information icon.svg" alt="">
+                                <span>Information Needed</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="middle">
+                            <div class="leftContent">
+                                <div class="paragraph">
+                                    <span>Paragraph</span>
+                                    <img src="/img/dropdown icon.svg" alt="">
+                                </div>
+                                <div class="styling">
+                                    <div class="bold">
+                                        <img src="/img/bold icon.svg" alt="">
+                                    </div>
+                                    <div class="italic">
+                                        <img src="/img/italic icon.svg" alt="">
+                                    </div>
+                                    <div class="underline">
+                                        <img src="/img/underline icon.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="aligning">
+                                    <div class="aligningTools">
+                                        <img src="/img/left align icon.svg" alt="">
+                                    </div>
+                                    <div class="aligningTools">
+                                        <img src="/img/justified icon.svg" alt="">
+                                    </div>
+                                    <div class="aligningTools">
+                                        <img src="/img/right align icon.svg" alt="">
+                                    </div>
+                                    <div class="aligningTools">
+                                        <img src="/img/centered icon.svg" alt="">
+                                    </div>
+                                    <div class="aligningTools">
+                                        <img src="/img/ul icon.svg" alt="">
+                                    </div>
+                                    <div class="aligningTools">
+                                        <img src="/img/ol icon.svg" alt="">
+                                    </div>
+                                    <div class="aligningTools">
+                                        <img src="/img/attach icon.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rightContent">
+                                <div class="pic">
+                                    <img src="/img/img icon.svg" alt="">
+                                    <span>Add Media</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="bottom">
+                            <div style="font-size: 15px;" class="paragraph">
+                                *Cut yard to prevent city violation. Remember the goal is not beautify property, only to
+                                    prevent violations. Call from site if yard is over 12 inches tall or more than 1 acre.
+                                <br> <br>
+                                <span style="font-weight: 700;">Estimated time to complete : </span> 20 o 60 min depending
+                                    on yard size
+                            </div>
+                            <div class="save-button">
+                                <img src="/img/save icon.svg" alt="">
+                                <span>Save</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="cropper.js"></script>
+</body>
+
+</html>
